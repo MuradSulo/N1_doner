@@ -1,75 +1,51 @@
 <!DOCTYPE html>
 <html lang="az">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#080808">
-  <meta name="description" content="N1 Döner Zaqatala - əlaqə və sosial şəbəkələr">
-  <title>N1 Döner Zaqatala</title>
-  <style>
-    *{box-sizing:border-box}
-    body{
-      margin:0; min-height:100vh; font-family:Arial,Helvetica,sans-serif;
-      background:radial-gradient(circle at top,#252525 0,#0b0b0b 45%,#050505 100%);
-      color:#fff; display:flex; justify-content:center; padding:28px 16px;
-    }
-    .card{
-      width:100%; max-width:460px; text-align:center;
-      background:rgba(18,18,18,.92); border:1px solid #3a3a3a;
-      border-radius:28px; padding:24px 18px 28px;
-      box-shadow:0 18px 60px rgba(0,0,0,.55);
-    }
-    .logo{
-      width:150px;height:150px;object-fit:cover;border-radius:50%;
-      border:4px solid #f5b719; box-shadow:0 0 28px rgba(245,183,25,.22);
-      margin:4px auto 16px; display:block;
-    }
-    h1{margin:0;font-size:28px;letter-spacing:.5px}
-    .sub{color:#d8d8d8;margin:7px 0 22px;font-size:15px}
-    .btn{
-      display:flex;align-items:center;justify-content:center;gap:10px;
-      width:100%; padding:15px 16px; margin:11px 0;
-      border-radius:14px; text-decoration:none; color:#fff;
-      font-weight:700; font-size:16px; border:1px solid #3d3d3d;
-      background:#191919; transition:.18s transform,.18s background;
-    }
-    .btn:hover{transform:translateY(-2px);background:#252525}
-    .wa{background:#168a42;border-color:#168a42}.wa:hover{background:#1aa34e}
-    .ig{background:linear-gradient(90deg,#833ab4,#fd1d1d,#fcb045);border:0}
-    .tt{background:#111;border-color:#555}
-    .map{background:#b87808;border-color:#d69715}
-    .call{background:#262626}
-    .icon{font-size:22px;line-height:1}
-    .footer{margin-top:20px;color:#8f8f8f;font-size:12px}
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="theme-color" content="#080808">
+<title>N1 Döner Zaqatala</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;font-family:Arial,Helvetica,sans-serif;background:radial-gradient(circle at top,#272727 0,#0b0b0b 48%,#030303 100%);color:#fff;display:flex;justify-content:center;padding:24px 14px}
+.card{width:100%;max-width:460px;text-align:center;background:rgba(18,18,18,.96);border:1px solid #4a4a4a;border-radius:28px;padding:24px 18px 28px;box-shadow:0 18px 60px #0009}
+.logo{width:150px;height:150px;object-fit:cover;border-radius:50%;border:4px solid #f5b719;box-shadow:0 0 28px #f5b71938;margin:0 auto 16px;display:block}
+h1{margin:0;font-size:28px;letter-spacing:.4px}.sub{color:#d8d8d8;margin:7px 0 22px;font-size:15px}
+.btn{position:relative;display:flex;align-items:center;justify-content:center;width:100%;height:66px;margin:12px 0;border-radius:17px;text-decoration:none;color:#fff;font-weight:700;font-size:18px;border:1px solid #555;box-shadow:0 5px 14px #0005;transition:.18s transform,.18s filter}
+.btn:hover{transform:translateY(-2px);filter:brightness(1.08)}
+.icon{position:absolute;left:18px;width:40px;height:40px;display:grid;place-items:center}.icon svg{width:38px;height:38px;display:block}
+.arrow{position:absolute;right:15px;width:36px;height:36px;border-radius:50%;background:#ffffff26;display:grid;place-items:center;font-size:25px}
+.wa{background:#00b94f;border-color:#00d65d}.ig{background:linear-gradient(90deg,#833ab4,#fd1d1d,#fcb045);border:0}.tt{background:#080808;border-color:#00f2ea;box-shadow:inset 0 0 0 1px #ff0050,0 5px 14px #0007}.call{background:#4b4e52}.map{background:linear-gradient(90deg,#f3a900,#ffc21a);border-color:#ffcc36}
+.footer{margin-top:22px;color:#999;font-size:12px}
+</style>
 </head>
 <body>
-  <main class="card">
-    <img class="logo" src="logo.jpg" alt="N1 Döner Zaqatala">
-    <h1>N1 Döner Zaqatala</h1>
-    <div class="sub">Döner • Fast Food • Zaqatala</div>
+<main class="card">
+<img class="logo" src="logo.jpg" alt="N1 Döner Zaqatala">
+<h1>N1 Döner Zaqatala</h1>
+<div class="sub">Döner • Fast Food • Zaqatala</div>
 
-    <a class="btn wa" href="https://wa.me/994775680062" target="_blank" rel="noopener">
-      <span class="icon">💬</span> WhatsApp
-    </a>
+<a class="btn wa" href="https://wa.me/994775680062" target="_blank" rel="noopener">
+<span class="icon"><svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="20" fill="none" stroke="white" stroke-width="4"/><path d="M15 34l2-6a10 10 0 1 1 4 4l-6 2z" fill="white"/><path d="M21 17c1-1 2 0 2 1l-1 2c1 2 2 3 4 4l2-1c1 0 2 1 1 2l-2 2c-1 1-7-2-9-7-1-2 0-3 3-3z" fill="#00b94f"/></svg></span>
+WhatsApp <span class="arrow">›</span></a>
 
-    <a class="btn ig" href="https://www.instagram.com/n1_doner_zaqatala" target="_blank" rel="noopener">
-      <span class="icon">📷</span> Instagram
-    </a>
+<a class="btn ig" href="https://www.instagram.com/n1_doner_zaqatala" target="_blank" rel="noopener">
+<span class="icon"><svg viewBox="0 0 48 48"><rect x="5" y="5" width="38" height="38" rx="11" fill="none" stroke="white" stroke-width="4"/><circle cx="24" cy="24" r="9" fill="none" stroke="white" stroke-width="4"/><circle cx="35" cy="13" r="3" fill="white"/></svg></span>
+Instagram <span class="arrow">›</span></a>
 
-    <a class="btn tt" href="https://www.tiktok.com/@n1_doner_zaqatalaaa" target="_blank" rel="noopener">
-      <span class="icon">🎵</span> TikTok
-    </a>
+<a class="btn tt" href="https://www.tiktok.com/@n1_doner_zaqatalaaa" target="_blank" rel="noopener">
+<span class="icon"><svg viewBox="0 0 48 48"><path d="M28 7v22a9 9 0 1 1-7-9" fill="none" stroke="#00f2ea" stroke-width="6" stroke-linecap="round"/><path d="M31 7c2 5 5 8 10 9" fill="none" stroke="#ff0050" stroke-width="6" stroke-linecap="round"/><path d="M29 7v22a9 9 0 1 1-7-9" fill="none" stroke="white" stroke-width="3" stroke-linecap="round"/></svg></span>
+TikTok <span class="arrow">›</span></a>
 
-    <a class="btn call" href="tel:+994775680062">
-      <span class="icon">📞</span> 077 568 00 62 — Zəng et
-    </a>
+<a class="btn call" href="tel:+994775680062">
+<span class="icon"><svg viewBox="0 0 48 48"><path d="M14 7l7 5-4 7c3 6 6 9 12 12l7-4 5 7-5 6c-2 2-6 2-10 0C17 34 9 26 5 16c-2-4-2-8 0-10l9 1z" fill="white"/></svg></span>
+077 568 00 62 — Zəng et <span class="arrow">›</span></a>
 
-    <a class="btn map" href="https://maps.app.goo.gl/fse1n2rsHAAjFoVk7" target="_blank" rel="noopener">
-      <span class="icon">📍</span> Konuma bax
-    </a>
+<a class="btn map" href="https://maps.app.goo.gl/fse1n2rsHAAjFoVk7" target="_blank" rel="noopener">
+<span class="icon"><svg viewBox="0 0 48 48"><path d="M24 43S11 29 11 19a13 13 0 1 1 26 0c0 10-13 24-13 24z" fill="white"/><circle cx="24" cy="19" r="5" fill="#ef3b24"/></svg></span>
+Konuma bax <span class="arrow">›</span></a>
 
-    <div class="footer">N1 Döner Zaqatala</div>
-  </main>
+<div class="footer">N1 Döner Zaqatala</div>
+</main>
 </body>
 </html>
